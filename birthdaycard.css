@@ -1,0 +1,98 @@
+body {
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(rgb(90, 90, 255), pink);
+  text-shadow: 0px 0px 1px black;
+  margin-bottom: 30px;
+}
+
+#marcinfoto {
+  height: 200px;
+  border: 5px #efb0c9 solid;
+  border-radius: 50%;
+}
+
+#bdage {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#bddate {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prezenty {
+  padding-top: 50px;
+}
+
+.gifttitle {
+  margin-bottom: 0px;
+}
+
+.gifthint {
+  margin-top: 5px;
+}
+
+.prezentimg {
+  height: 400px;
+  width: 400px;
+  background-image: url(prezent.jpg);
+  background-size: cover;
+  margin: 10px auto;
+  border: 6px solid pink;
+  border-radius: 5px;
+}
+
+.prezentimg:hover {
+  background-image: url(https://media.giphy.com/media/MeIucAjPKoA120R7sN/giphy.gif);
+}
+
+#happygift:hover {
+  background-image: url(https://media.giphy.com/media/8DUxtTxFntY7lpJnzy/giphy.gif);
+}
+
+#describegift:hover {
+  background-image: url(https://media.giphy.com/media/aQ0PfLFwagW52/giphy.gif);
+}
+
+#badassgift:hover {
+  background-image: url(https://media.giphy.com/media/84CRvhy2DJlwA/giphy.gif);
+  background-size: auto;
+}
+
+#lastpresent {
+  height: 200px;
+}
+
+#lastpresent:hover {
+  background-image: url(https://media.giphy.com/media/GDUBw13c7SqNW/giphy.gif);
+}
+
+#footer {
+  padding: 20px 0px;
+  font-size: larger;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.link:hover {
+  color: red;
+}
+
+a {
+  color: white;
+  font-size: xx-large;
+}
